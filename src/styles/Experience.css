@@ -1,0 +1,14 @@
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    border: 1px solid gray;
+    margin: 10px 0px;
+}

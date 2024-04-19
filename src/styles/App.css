@@ -1,0 +1,32 @@
+#root {
+  padding: 0rem 2rem;
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 95%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+
+.left * {
+  margin: 5px 0px;
+}
+
+.right {
+  border: 1px solid gray;
+  width: 50vw;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
